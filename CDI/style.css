@@ -361,13 +361,16 @@ footer{
         max-width: 100%;
     }
 
-     .banner-2{
-        height: 300px;
+    .container-banner{
+        padding-right: 10px;
+        padding-left: 10px;
     }
+
     #h1{
         top: 30px !important;
         position: relative;
     }
+
 }
 
 @media (max-width: 425px){
@@ -375,28 +378,24 @@ footer{
         display: none;
     }
     
+    .container-banner{
+        padding-top: 70px!important;
+    }
+
     #banner-text{
-        font-size: 15vw;
+        font-size: 9vw;
     }
     
     .banner-2{
-        height: 200px;
+        height: 180px!important;
     }
 
     #h1{
-        top: 20px !important;
+        top: 10px !important;
         position: relative;
+        font-size: 5vw;
     }
 }
 
-@media (max-width: 375){
-    .banner-2{
-        height: 150px;
-    }
 
-    #h1{
-        top: -10px !important;
-        position: relative;
-    }
-}
 
